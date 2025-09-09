@@ -146,6 +146,8 @@ function validate() {
               >
                 <input
                   id="phone"
+                  pattern="^(\+86)?1[3-9]\d{9}$"
+                  title="请输入有效的中国大陆手机号码，例如：+8613712345678 或 13712345678"
                   data-errorMessage="请输入您的手机号码"
                   required
                   placeholder="+86"
